@@ -16,5 +16,12 @@ public class Pessoa {
 
     }
 
+
     // Comentario
+
+    public void setNome(String nome) {
+        String n = nome;
+        this.nome = n;
+    }
+
 }
