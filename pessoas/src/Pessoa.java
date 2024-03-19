@@ -14,4 +14,9 @@ public class Pessoa {
     public int getIdade() {
         return idade;
     }
+
+    public void setNome(String nome) {
+        String n = nome;
+        this.nome = n;
+    }
 }
